@@ -37,6 +37,8 @@ public static void main(String[] values)
      Inverter inverter5=new Inverter();
      System.out.println(inverter5.price);
      System.out.println(inverter5.color);
+    inverter4.color="Red";
+
 }
 
 
