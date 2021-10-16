@@ -1,4 +1,5 @@
 class NewsPaper{
+  System.out.println("paper.name");
 //noOfPage,price,headline,content
   String name=null; // const
   NewsPaperLang lang=NewsPaperLang.KANNADA;// non-primitive
@@ -11,6 +12,7 @@ class NewsPaper{
     this.price=price;//assigning value to instance variable
     System.out.println("invoked string,flaor Constructor of news paper");
    }
+   //name=NA , price, 3.5
    NewsPaper()
    {
      System.out.println("invoked no-arg Constructor of news paper");
