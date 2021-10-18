@@ -14,5 +14,9 @@ if(price>0)
 {
 System.out.println(price);
 }
+ticket.setName("Gold Class");
+ticket.setPrice(700);
+System.out.println(ticket.getName());
+System.out.println(ticket.getPrice());
 }
 }

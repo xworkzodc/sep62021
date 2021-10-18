@@ -20,4 +20,13 @@ class Ticket{
  return this.price;
  }
 
+ void setName(String name)
+ {
+   this.name=name;
+ }
+
+ void setPrice(double price){
+   this.price=price;
+ }
+
 }
