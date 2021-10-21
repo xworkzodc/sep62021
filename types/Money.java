@@ -2,10 +2,11 @@ class Money{
 
 String country;// literals,ref var , const , method
 
+
 Money()
 {
-this("NA");// Arg
-System.out.println("invoked no-arg Constructor");
+this("NA");// NA const ---ref
+System.out.println("invoked no-arg Constructor");//
 
 }
 Money(String country)// NA
@@ -18,7 +19,7 @@ Money(String country)// NA
 void displayValue()
 {
   System.out.println("invoked displayValue");
-  System.out.println("Country is "+this.country);
+  System.out.println("Country is "+this.country);//Country is NA
 }
 
 }
